@@ -186,3 +186,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 #        'BACKEND': 'django.core.mail.backends.console.EmailBackend',
 #    },
 #}
+
+# Seguridad de sesión bancaria en Panel Admin
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+SESSION_COOKIE_AGE = 300
+
